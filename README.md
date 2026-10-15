@@ -16,10 +16,17 @@ _(pendiente)_
 
 <!-- [MARTIN] -->
 ## 3. Conceptos HCI
-_(pendiente)_
+- **Requisitos:** lo que el usuario necesita poder hacer con el sistema. Se redactan desde su punto de vista, con un solo verbo, y se numeran (R1, R2…) para poder seguirlos hasta el wireframe. Responden: ¿qué debe poder hacer el sistema?
+- **Sitemap:** árbol que muestra qué pantallas existen y de cuál cuelga cada una. Responde: ¿qué pantallas existen? Lleva leyenda y cada requisito debe ocurrir en alguna pantalla. No lleva flechas de recorrido, eso es del user flow.
+- **Navegación:** los elementos visibles (menús, botones, enlaces) que permiten pasar de una pantalla a otra. Debe ser consistente, mostrar dónde está el usuario, ofrecer siempre una salida y definir adónde regresa tras guardar o cancelar.
+- **Heurísticas de Nielsen aplicadas:** H1 visibilidad del estado, H3 control y libertad, H4 consistencia y H5 prevención de errores.
 
 ## 4. Procedimiento
-_(pendiente)_
+1. Se partió de la historia de Ana, la evaluadora, y se escribieron los requisitos R1–R6 con un verbo cada uno (`prototipos/01-requisitos.md`).
+2. Se dibujó el sitemap con simbología y leyenda, ubicando cada requisito en una pantalla (`prototipos/02-sitemap.png`).
+3. Se armó la tabla de navegación (de dónde → a dónde → con qué elemento) y el mapa, definiendo adónde regresa el usuario tras Guardar y Cancelar (`prototipos/03-navegacion.md` y `.png`).
+4. Se registraron las versiones en la bitácora (`evidencias/bitacora-martin.md`).
+5. Cada entrega se subió con commits pequeños y Pull Request revisado por un compañero.
 <!-- [/MARTIN] -->
 
 <!-- [DAVID] -->

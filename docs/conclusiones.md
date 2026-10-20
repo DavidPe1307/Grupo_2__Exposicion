@@ -7,7 +7,7 @@ Aprendí que sin requisitos bien escritos, uno por verbo, todo lo demás se deso
 
 ## David Pérez
 <!-- [DAVID] -->
-_(pendiente)_
+Aprendí que el user flow es donde se descubren los huecos: mi primer intento solo tenía el camino feliz y no decía qué pasaba con un campo vacío ni cómo se confirmaba el guardado. Al agregar la rama de error y la decisión «¿Datos válidos?», los componentes (mensaje de error, Guardar deshabilitado, mensaje de éxito) salieron solos. Si lo repitiera, definiría los estados de cada componente al mismo tiempo que dibujo el flujo, y mantendría el repositorio con ramas y Pull Requests desde el primer día para que el trabajo de los tres no quedara en ramas separadas.
 <!-- [/DAVID] -->
 
 ## Sheyla Pacha

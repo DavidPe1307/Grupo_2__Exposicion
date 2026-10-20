@@ -18,9 +18,13 @@
 **Nota:** con solo dos niveles de profundidad, el menú lateral con el ítem activo resaltado basta para
 que el usuario sepa siempre dónde está y cómo volver.
 
+## Adónde regresa el usuario
+- Tras **Guardar** (datos válidos): al **Dashboard**, con el mensaje «Evaluación guardada».
+- Tras **Cancelar**: al **Dashboard**, sin guardar.
+
 ## Comprobación
-- [x] Cada flecha del user flow que cambia de pantalla tiene un elemento que la hace posible.
-- [x] Se puede salir de cada pantalla (volver o cancelar).
-- [x] El usuario sabe dónde está en todo momento.
-- [x] Los nombres del menú son iguales a los títulos de las pantallas.
-- [x] Está definido adónde regresa el usuario tras Guardar y tras Cancelar.
+- [ ] Cada flecha del user flow que cambia de pantalla tiene un elemento que la hace posible.
+- [ ] Se puede salir de cada pantalla (volver o cancelar).
+- [ ] El usuario sabe dónde está en todo momento.
+- [ ] Los nombres del menú son iguales a los títulos de las pantallas.
+- [ ] Está definido adónde regresa el usuario tras Guardar y tras Cancelar.

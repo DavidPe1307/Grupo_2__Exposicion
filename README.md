@@ -40,6 +40,10 @@ Este trabajo aborda cómo pasar de los requisitos a la arquitectura, el flujo y 
 - **Sitemap:** árbol que muestra qué pantallas existen y de cuál cuelga cada una. Responde: ¿qué pantallas existen? Lleva leyenda y cada requisito debe ocurrir en alguna pantalla. No lleva flechas de recorrido, eso es del user flow.
 - **Navegación:** los elementos visibles (menús, botones, enlaces) que permiten pasar de una pantalla a otra. Debe ser consistente, mostrar dónde está el usuario, ofrecer siempre una salida y definir adónde regresa tras guardar o cancelar.
 - **Heurísticas de Nielsen aplicadas:** H1 visibilidad del estado, H3 control y libertad, H4 consistencia y H5 prevención de errores.
+- **User flow:** recorrido paso a paso de una persona para lograr una tarea, con decisiones y camino de error. Responde: ¿qué camino sigue el usuario? Siempre tiene rama de error que regresa a un paso anterior.
+- **Componentes:** piezas reutilizables (Atomic Design: átomo, molécula, organismo) con sus estados. Responden: ¿con qué piezas se arma cada pantalla? Cada una justifica su existencia con un requisito.
+- **Wireframes:** dibujo esquemático de cada pantalla, en fidelidad baja, media o alta. Responden: ¿cómo se ve y qué contiene cada pantalla? Se empieza en baja fidelidad porque cambiar un bloque cuesta casi nada.
+- **Trazabilidad:** matriz que sigue cada requisito por todos los productos; una celda vacía significa que falta un artefacto.
 
 ## 4. Procedimiento
 1. Se partió de la historia de Ana, la evaluadora, y se escribieron los requisitos R1–R6 con un verbo cada uno (`prototipos/01-requisitos.md`).
@@ -48,8 +52,12 @@ Este trabajo aborda cómo pasar de los requisitos a la arquitectura, el flujo y 
 4. Se registraron las versiones en la bitácora (`evidencias/bitacora-martin.md`).
 5. Cada entrega se subió con commits pequeños y Pull Request revisado por un compañero.
 <!-- [/MARTIN] -->
-
+6. Se trazó el user flow con rama de error y se numeró cada paso (`prototipos/04-user-flow.png`; borrador en `evidencias/borradores/`).
+7. Se listaron y clasificaron los componentes con Atomic Design y sus estados (`prototipos/05-componentes.md` y `.png`).
+8. Se dibujó un wireframe Lo-Fi por cada momento del flujo, y se adelantaron versiones Mid-Fi y Hi-Fi (`prototipos/06-wireframes/`).
+9. Se armó la matriz de trazabilidad y se comprobó que no hay celdas vacías (`prototipos/07-trazabilidad.md`).
 <!-- [DAVID] -->
+
 ## 6. Resultados
 | Producto | Ubicación |
 |---|---|
@@ -60,6 +68,10 @@ Este trabajo aborda cómo pasar de los requisitos a la arquitectura, el flujo y 
 | Plantilla para repetir el ejercicio | `prototipos/plantilla-en-blanco.md` |
 | Decisiones de diseño | `docs/decisiones.md` |
 | Investigación completa | `docs/investigacion.md` |
+| Resumen y defensa por bloque | `docs/bloque-1-martin.md`, `docs/bloque-2-david.md`, `docs/bloque-3-sheyla.md` |
+| Banco de preguntas (defensa y Kahoot) | `docs/preguntas.md` |
+| Vinculación con la guía APE 4 y con la Fase 2 | `docs/vinculacion-guia-ape4.md` |
+| Guion de la exposición | `docs/guion-exposicion.md` |
 | Borradores y capturas | `evidencias/` |
 | Presentación y resultado del Kahoot | `resultados/` |
 
@@ -78,3 +90,6 @@ Ver `docs/conclusiones.md`.
 
 ## 9. Cómo reproducir el ejercicio
 Usa `prototipos/plantilla-en-blanco.md` y sigue los 7 pasos con un caso propio.
+
+## 10. Relación con la guía del APE 4
+Esta exposición es la Fase 1 del APE 4 (Prototipado – Wireframes). La tabla que une los pasos de la guía con los productos del repositorio, y cómo la Fase 1 alimenta la Fase 2 (prototipo navegable), está en `docs/vinculacion-guia-ape4.md`.

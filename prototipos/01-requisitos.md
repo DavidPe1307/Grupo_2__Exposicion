@@ -20,7 +20,14 @@ poder seguirlo hasta el wireframe.
 | R6 | Guardar y ver que quedó guardado | Guardar | HU-01 |
 
 ## Notas
-- R2 y R3 agrupan varios campos del mismo bloque del formulario. Si se quisiera más detalle, se
-  dividirían en requisitos más finos.
-- «Cancelar» no es un requisito aparte: es la salida del usuario (heurística H3) y aparece en la
-  navegación y en los componentes.
+- R2 y R3 agrupan varios campos del mismo bloque del formulario con el mismo verbo. Si se quisiera más
+  detalle, se dividirían en requisitos más finos.
+- En R6 la acción es guardar; «ver que quedó guardado» es la confirmación de esa misma acción
+  (heurística H1, visibilidad del estado).
+- **Por qué «Cancelar» no es un requisito aparte:** es la salida del usuario en cualquier momento
+  (heurística H3, control y libertad). No es una tarea que Ana quiera lograr, sino una vía de escape
+  del formulario; por eso aparece en la navegación y en los componentes, pero no como R7.
+
+## Uso en los demás productos
+Estos mismos R1–R6 se usan en el sitemap (pantalla donde ocurre cada uno), el user flow (paso en que
+aparece), los componentes (qué pieza lo cubre) y los wireframes (cuadro donde se ve).

@@ -1,8 +1,8 @@
 # Bloque 1 · Requisitos, sitemap y navegación · Martín Palacios
-
-
-
-
+1. **¿Cuál es la regla práctica para redactar un requisito?** a) Mínimo tres verbos · b) Incluir el color del botón · c) **Un requisito, un verbo** · d) Escribirlo desde el punto de vista del programador *Correcta: c.*
+2. **¿Qué pregunta responde el sitemap?** a) ¿Qué camino sigue el usuario? · b) **¿Qué pantallas existen?** · c) ¿Cómo se ve cada pantalla? · d) ¿Con qué piezas se arma? *Correcta: b.*
+3. **¿Cuál es un error común al dibujar un sitemap?** a) Numerar las pantallas · b) Incluir una leyenda · c) Usar nombres cortos · d) **Dibujar flechas de recorrido** *Correcta: d. El recorrido es del user flow.*
+4. **En la Tarea 1, ¿adónde regresa el usuario al guardar o cancelar?** a) **Al Dashboard** · b) Al formulario vacío · c) Al Product Backlog · d) Sale del sistema *Correcta: a.*
 
 # Bloque 2 · User flow y componentes · David Pérez
 
@@ -25,4 +25,5 @@
 4. **En la matriz de trazabilidad, una celda vacía significa:**
    a) **Que falta un artefacto** · b) Que el requisito no es importante · c) Que no se necesita wireframe · d) Que la tarea terminó
    *Correcta: a.*
+
 

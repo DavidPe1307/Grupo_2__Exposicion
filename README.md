@@ -5,13 +5,33 @@ Interacción Humano-Computador · APE 4, Fase 1 · Grupo 2
 
 <!-- [SHEYLA] -->
 ## 1. Problema
-_(pendiente)_
 
-## 2. Objeto de estudio y objetivo
-_(pendiente)_
+Al diseñar una aplicación es habitual pasar de los requisitos directamente a dibujar o programar pantallas, sin un proceso intermedio. Cuando eso ocurre aparecen interfaces inconsistentes, flujos incompletos, componentes que nadie pidió y requisitos que nunca llegan a verse en el diseño. Corregirlo después, cuando ya existe código, es costoso.
+
+Este trabajo aborda cómo pasar de los requisitos a la arquitectura, el flujo y el wireframe de forma ordenada y verificable, de modo que cada requisito pueda seguirse hasta una pantalla.
+
+## 2. Objeto de estudio y objetivos
+
+**Objeto de estudio:** el proceso de definir sitemap, navegación, user flow, componentes y wireframes de baja fidelidad, aplicado a la Tarea 1 «Registrar evaluación» del proyecto Usability Test Dashboard 2.0. La tarea se usa como ejemplo didáctico; el proyecto completo está en `resultados/proyecto-real/`.
+
+**Objetivo general:** enseñar a la clase, con un caso simple y reproducible, cómo se pasa de requisitos a wireframes y cómo se comprueba que ningún requisito se pierde en el camino.
+
+**Objetivos específicos:**
+- Redactar los requisitos R1–R6 de la tarea a partir de las historias de usuario.
+- Construir el sitemap, la navegación, el user flow, el inventario de componentes y los wireframes Lo-Fi.
+- Verificar con una matriz de trazabilidad que cada requisito llega hasta un wireframe.
+- Dejar una plantilla en blanco para que la clase repita el ejercicio con su propio caso.
 
 ## 5. Herramientas
-_(pendiente)_
+
+| Herramienta | Uso |
+|---|---|
+| Figma / Penpot | Diagramas y wireframes (Lo-Fi, y Mid-Fi y Hi-Fi como adelanto de la siguiente fase) |
+| GitHub | Repositorio, issues, ramas y Pull Requests con revisión cruzada |
+| Markdown | Documentación (requisitos, navegación, componentes, trazabilidad) |
+| Gemini (NotebookLM) | Generación de las diapositivas de la exposición |
+| Kahoot | Evaluación de lo aprendido en clase |
+| Asistentes de IA (Claude, Gemini) | Apoyo en la organización del contenido y la revisión; el equipo revisó y ajustó los resultados |
 <!-- [/SHEYLA] -->
 
 <!-- [MARTIN] -->
